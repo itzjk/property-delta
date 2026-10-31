@@ -1,0 +1,1137 @@
+{
+  "schemaVersion": "1.0.0",
+  "tool": "property-delta",
+  "coverage": {
+    "mode": "declared-css-only",
+    "complete": true,
+    "observedNames": 6,
+    "comparedNames": 6,
+    "excludedNames": 0
+  },
+  "validation": {
+    "status": "not verified",
+    "reason": "Declaration comparison only; syntax grammars, initial-value validity and browser registration are not validated."
+  },
+  "inputs": {
+    "before": {
+      "file": "examples/before.css",
+      "sha256": "c8c4d28d55625801d02ee4ed537998b84311406a74f5e245bc9bfc8af8cd0664",
+      "bytes": 474,
+      "parseStatus": "parsed",
+      "unknownNames": false,
+      "registrations": [
+        {
+          "name": "--space",
+          "rawName": "--space",
+          "location": {
+            "file": "examples/before.css",
+            "line": 1,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<length>\"",
+              "value": "<length>",
+              "location": {
+                "file": "examples/before.css",
+                "line": 2,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "true",
+              "value": true,
+              "location": {
+                "file": "examples/before.css",
+                "line": 3,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "0px",
+              "value": [
+                [
+                  "dimension-token",
+                  "0px"
+                ]
+              ],
+              "location": {
+                "file": "examples/before.css",
+                "line": 4,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        },
+        {
+          "name": "--brand",
+          "rawName": "--brand",
+          "location": {
+            "file": "examples/before.css",
+            "line": 6,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<color>\"",
+              "value": "<color>",
+              "location": {
+                "file": "examples/before.css",
+                "line": 7,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "true",
+              "value": true,
+              "location": {
+                "file": "examples/before.css",
+                "line": 8,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "black",
+              "value": [
+                [
+                  "ident-token",
+                  "black"
+                ]
+              ],
+              "location": {
+                "file": "examples/before.css",
+                "line": 9,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        },
+        {
+          "name": "--amount",
+          "rawName": "--amount",
+          "location": {
+            "file": "examples/before.css",
+            "line": 11,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<number>\"",
+              "value": "<number>",
+              "location": {
+                "file": "examples/before.css",
+                "line": 12,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/before.css",
+                "line": 13,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "0",
+              "value": [
+                [
+                  "number-token",
+                  "0"
+                ]
+              ],
+              "location": {
+                "file": "examples/before.css",
+                "line": 14,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        },
+        {
+          "name": "--legacy",
+          "rawName": "--legacy",
+          "location": {
+            "file": "examples/before.css",
+            "line": 16,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<number>\"",
+              "value": "<number>",
+              "location": {
+                "file": "examples/before.css",
+                "line": 17,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/before.css",
+                "line": 18,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "1",
+              "value": [
+                [
+                  "number-token",
+                  "1"
+                ]
+              ],
+              "location": {
+                "file": "examples/before.css",
+                "line": 19,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        },
+        {
+          "name": "--steady",
+          "rawName": "--steady",
+          "location": {
+            "file": "examples/before.css",
+            "line": 21,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<number>\"",
+              "value": "<number>",
+              "location": {
+                "file": "examples/before.css",
+                "line": 22,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/before.css",
+                "line": 23,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "2",
+              "value": [
+                [
+                  "number-token",
+                  "2"
+                ]
+              ],
+              "location": {
+                "file": "examples/before.css",
+                "line": 24,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "exclusions": []
+    },
+    "after": {
+      "file": "examples/after.css",
+      "sha256": "35f843392a7164117c9f77f43b069cd8c9fce27360a998e3f99295e1b3f8efb6",
+      "bytes": 477,
+      "parseStatus": "parsed",
+      "unknownNames": false,
+      "registrations": [
+        {
+          "name": "--space",
+          "rawName": "--space",
+          "location": {
+            "file": "examples/after.css",
+            "line": 1,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<length>\"",
+              "value": "<length>",
+              "location": {
+                "file": "examples/after.css",
+                "line": 2,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/after.css",
+                "line": 3,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "0px",
+              "value": [
+                [
+                  "dimension-token",
+                  "0px"
+                ]
+              ],
+              "location": {
+                "file": "examples/after.css",
+                "line": 4,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        },
+        {
+          "name": "--brand",
+          "rawName": "--brand",
+          "location": {
+            "file": "examples/after.css",
+            "line": 6,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<color>\"",
+              "value": "<color>",
+              "location": {
+                "file": "examples/after.css",
+                "line": 7,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "true",
+              "value": true,
+              "location": {
+                "file": "examples/after.css",
+                "line": 8,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "navy",
+              "value": [
+                [
+                  "ident-token",
+                  "navy"
+                ]
+              ],
+              "location": {
+                "file": "examples/after.css",
+                "line": 9,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        },
+        {
+          "name": "--amount",
+          "rawName": "--amount",
+          "location": {
+            "file": "examples/after.css",
+            "line": 11,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<integer>\"",
+              "value": "<integer>",
+              "location": {
+                "file": "examples/after.css",
+                "line": 12,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/after.css",
+                "line": 13,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "0",
+              "value": [
+                [
+                  "number-token",
+                  "0"
+                ]
+              ],
+              "location": {
+                "file": "examples/after.css",
+                "line": 14,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        },
+        {
+          "name": "--accent",
+          "rawName": "--accent",
+          "location": {
+            "file": "examples/after.css",
+            "line": 16,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<color>\"",
+              "value": "<color>",
+              "location": {
+                "file": "examples/after.css",
+                "line": 17,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/after.css",
+                "line": 18,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "gold",
+              "value": [
+                [
+                  "ident-token",
+                  "gold"
+                ]
+              ],
+              "location": {
+                "file": "examples/after.css",
+                "line": 19,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        },
+        {
+          "name": "--steady",
+          "rawName": "--steady",
+          "location": {
+            "file": "examples/after.css",
+            "line": 21,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<number>\"",
+              "value": "<number>",
+              "location": {
+                "file": "examples/after.css",
+                "line": 22,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/after.css",
+                "line": 23,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "2",
+              "value": [
+                [
+                  "number-token",
+                  "2"
+                ]
+              ],
+              "location": {
+                "file": "examples/after.css",
+                "line": 24,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "exclusions": []
+    }
+  },
+  "counts": {
+    "added": 1,
+    "removed": 1,
+    "descriptor-changed": 3,
+    "unchanged": 1,
+    "unverified": 0,
+    "total": 6
+  },
+  "entries": [
+    {
+      "name": "--accent",
+      "status": "added",
+      "before": [],
+      "after": [
+        {
+          "name": "--accent",
+          "rawName": "--accent",
+          "location": {
+            "file": "examples/after.css",
+            "line": 16,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<color>\"",
+              "value": "<color>",
+              "location": {
+                "file": "examples/after.css",
+                "line": 17,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/after.css",
+                "line": 18,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "gold",
+              "value": [
+                [
+                  "ident-token",
+                  "gold"
+                ]
+              ],
+              "location": {
+                "file": "examples/after.css",
+                "line": 19,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "changes": [],
+      "reasons": []
+    },
+    {
+      "name": "--amount",
+      "status": "descriptor-changed",
+      "before": [
+        {
+          "name": "--amount",
+          "rawName": "--amount",
+          "location": {
+            "file": "examples/before.css",
+            "line": 11,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<number>\"",
+              "value": "<number>",
+              "location": {
+                "file": "examples/before.css",
+                "line": 12,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/before.css",
+                "line": 13,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "0",
+              "value": [
+                [
+                  "number-token",
+                  "0"
+                ]
+              ],
+              "location": {
+                "file": "examples/before.css",
+                "line": 14,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "after": [
+        {
+          "name": "--amount",
+          "rawName": "--amount",
+          "location": {
+            "file": "examples/after.css",
+            "line": 11,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<integer>\"",
+              "value": "<integer>",
+              "location": {
+                "file": "examples/after.css",
+                "line": 12,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/after.css",
+                "line": 13,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "0",
+              "value": [
+                [
+                  "number-token",
+                  "0"
+                ]
+              ],
+              "location": {
+                "file": "examples/after.css",
+                "line": 14,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "changes": [
+        {
+          "descriptor": "syntax",
+          "kind": "decoded-string",
+          "before": {
+            "present": true,
+            "raw": "\"<number>\"",
+            "value": "<number>",
+            "location": {
+              "file": "examples/before.css",
+              "line": 12,
+              "column": 3
+            }
+          },
+          "after": {
+            "present": true,
+            "raw": "\"<integer>\"",
+            "value": "<integer>",
+            "location": {
+              "file": "examples/after.css",
+              "line": 12,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "name": "--brand",
+      "status": "descriptor-changed",
+      "before": [
+        {
+          "name": "--brand",
+          "rawName": "--brand",
+          "location": {
+            "file": "examples/before.css",
+            "line": 6,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<color>\"",
+              "value": "<color>",
+              "location": {
+                "file": "examples/before.css",
+                "line": 7,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "true",
+              "value": true,
+              "location": {
+                "file": "examples/before.css",
+                "line": 8,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "black",
+              "value": [
+                [
+                  "ident-token",
+                  "black"
+                ]
+              ],
+              "location": {
+                "file": "examples/before.css",
+                "line": 9,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "after": [
+        {
+          "name": "--brand",
+          "rawName": "--brand",
+          "location": {
+            "file": "examples/after.css",
+            "line": 6,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<color>\"",
+              "value": "<color>",
+              "location": {
+                "file": "examples/after.css",
+                "line": 7,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "true",
+              "value": true,
+              "location": {
+                "file": "examples/after.css",
+                "line": 8,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "navy",
+              "value": [
+                [
+                  "ident-token",
+                  "navy"
+                ]
+              ],
+              "location": {
+                "file": "examples/after.css",
+                "line": 9,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "changes": [
+        {
+          "descriptor": "initial-value",
+          "kind": "token-representation",
+          "before": {
+            "present": true,
+            "raw": "black",
+            "value": [
+              [
+                "ident-token",
+                "black"
+              ]
+            ],
+            "location": {
+              "file": "examples/before.css",
+              "line": 9,
+              "column": 3
+            }
+          },
+          "after": {
+            "present": true,
+            "raw": "navy",
+            "value": [
+              [
+                "ident-token",
+                "navy"
+              ]
+            ],
+            "location": {
+              "file": "examples/after.css",
+              "line": 9,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "name": "--legacy",
+      "status": "removed",
+      "before": [
+        {
+          "name": "--legacy",
+          "rawName": "--legacy",
+          "location": {
+            "file": "examples/before.css",
+            "line": 16,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<number>\"",
+              "value": "<number>",
+              "location": {
+                "file": "examples/before.css",
+                "line": 17,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/before.css",
+                "line": 18,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "1",
+              "value": [
+                [
+                  "number-token",
+                  "1"
+                ]
+              ],
+              "location": {
+                "file": "examples/before.css",
+                "line": 19,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "after": [],
+      "changes": [],
+      "reasons": []
+    },
+    {
+      "name": "--space",
+      "status": "descriptor-changed",
+      "before": [
+        {
+          "name": "--space",
+          "rawName": "--space",
+          "location": {
+            "file": "examples/before.css",
+            "line": 1,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<length>\"",
+              "value": "<length>",
+              "location": {
+                "file": "examples/before.css",
+                "line": 2,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "true",
+              "value": true,
+              "location": {
+                "file": "examples/before.css",
+                "line": 3,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "0px",
+              "value": [
+                [
+                  "dimension-token",
+                  "0px"
+                ]
+              ],
+              "location": {
+                "file": "examples/before.css",
+                "line": 4,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "after": [
+        {
+          "name": "--space",
+          "rawName": "--space",
+          "location": {
+            "file": "examples/after.css",
+            "line": 1,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<length>\"",
+              "value": "<length>",
+              "location": {
+                "file": "examples/after.css",
+                "line": 2,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/after.css",
+                "line": 3,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "0px",
+              "value": [
+                [
+                  "dimension-token",
+                  "0px"
+                ]
+              ],
+              "location": {
+                "file": "examples/after.css",
+                "line": 4,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "changes": [
+        {
+          "descriptor": "inherits",
+          "kind": "boolean",
+          "before": {
+            "present": true,
+            "raw": "true",
+            "value": true,
+            "location": {
+              "file": "examples/before.css",
+              "line": 3,
+              "column": 3
+            }
+          },
+          "after": {
+            "present": true,
+            "raw": "false",
+            "value": false,
+            "location": {
+              "file": "examples/after.css",
+              "line": 3,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "name": "--steady",
+      "status": "unchanged",
+      "before": [
+        {
+          "name": "--steady",
+          "rawName": "--steady",
+          "location": {
+            "file": "examples/before.css",
+            "line": 21,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<number>\"",
+              "value": "<number>",
+              "location": {
+                "file": "examples/before.css",
+                "line": 22,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/before.css",
+                "line": 23,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "2",
+              "value": [
+                [
+                  "number-token",
+                  "2"
+                ]
+              ],
+              "location": {
+                "file": "examples/before.css",
+                "line": 24,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "after": [
+        {
+          "name": "--steady",
+          "rawName": "--steady",
+          "location": {
+            "file": "examples/after.css",
+            "line": 21,
+            "column": 1
+          },
+          "descriptors": {
+            "syntax": {
+              "present": true,
+              "raw": "\"<number>\"",
+              "value": "<number>",
+              "location": {
+                "file": "examples/after.css",
+                "line": 22,
+                "column": 3
+              }
+            },
+            "inherits": {
+              "present": true,
+              "raw": "false",
+              "value": false,
+              "location": {
+                "file": "examples/after.css",
+                "line": 23,
+                "column": 3
+              }
+            },
+            "initial-value": {
+              "present": true,
+              "raw": "2",
+              "value": [
+                [
+                  "number-token",
+                  "2"
+                ]
+              ],
+              "location": {
+                "file": "examples/after.css",
+                "line": 24,
+                "column": 3
+              }
+            }
+          },
+          "reasons": []
+        }
+      ],
+      "changes": [],
+      "reasons": []
+    }
+  ],
+  "exclusions": [],
+  "gate": {
+    "failOnChange": false,
+    "relevantChanges": 5,
+    "triggered": false,
+    "exitCode": 0
+  }
+}

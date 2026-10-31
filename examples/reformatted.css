@@ -1,0 +1,7 @@
+/* Same declarations as after.css, reordered. */
+@property --steady { initial-value: 2; inherits: FALSE; syntax: '<number>' }
+@property --accent { inherits: false; initial-value: gold; syntax: '<color>' }
+@property --amount { initial-value: 0; syntax: '<integer>'; inherits: false }
+@property --brand { syntax: '<color>'; /* branding */ initial-value: navy; inherits: true }
+@property --space { inherits: false; syntax: '<length>'; initial-value: 0px }
+:root { --space: 8px; --brand: black; --amount: 4; }

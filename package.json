@@ -1,0 +1,16 @@
+{
+  "name": "property-delta",
+  "version": "0.1.0",
+  "description": "Review CSS @property registration changes between releases.",
+  "type": "module",
+  "bin": { "property-delta": "bin/property-delta.mjs" },
+  "exports": "./src/compare.mjs",
+  "files": ["bin", "src", "examples", "docs/report-v1.md", "docs/alternatives.md", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test", "demo": "node bin/property-delta.mjs examples/before.css examples/after.css" },
+  "engines": { "node": ">=22" },
+  "keywords": ["css", "custom-properties", "design-tokens", "design-systems", "api-diff", "postcss", "cli", "continuous-integration"],
+  "repository": { "type": "git", "url": "https://github.com/itzjk/property-delta" },
+  "bugs": { "url": "https://github.com/itzjk/property-delta/issues" },
+  "license": "MIT",
+  "dependencies": { "@csstools/css-tokenizer": "4.0.2", "postcss": "8.5.32" }
+}

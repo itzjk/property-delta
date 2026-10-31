@@ -1,0 +1,26 @@
+@property --space {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --brand {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: navy;
+}
+@property --amount {
+  syntax: "<integer>";
+  inherits: false;
+  initial-value: 0;
+}
+@property --accent {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: gold;
+}
+@property --steady {
+  syntax: "<number>";
+  inherits: false;
+  initial-value: 2;
+}
+:root { --space: 8px; --brand: black; --amount: 4; }
