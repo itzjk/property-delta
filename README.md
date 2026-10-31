@@ -79,7 +79,7 @@ Then compare `examples/after.css` with `examples/reformatted.css`: five unchange
 
 ## Contributing
 
-Run `npm ci` and `npm test`; include a failing reproduction with a behavior change. To record the terminal demo, install the CLI, then run `vhs docs/demo.tape` from the repository root.
+Run `npm ci` and `npm test`; include a failing reproduction with a behavior change. The TAP summary reports the test count, passes and failures. To record the terminal demo, run `vhs docs/demo.tape` from the repository root after installing dependencies. The tape uses the local CLI and starts with a completed comparison so its first frame shows the result.
 
 ## License
 
