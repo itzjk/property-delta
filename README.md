@@ -5,12 +5,7 @@ See which CSS custom property registrations changed before you ship a release.
 [![CI](https://github.com/itzjk/property-delta/actions/workflows/ci.yml/badge.svg)](https://github.com/itzjk/property-delta/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-```text
-property-delta | declared-css-only
-1 added, 1 removed, 3 descriptor-changed, 1 unchanged, 0 unverified
-Coverage: complete (6/6 observed names compared)
-Normative validation: not verified
-```
+![Demo comparing registration changes, then ignoring formatting and order changes](docs/demo.gif)
 
 ## Quick start
 
