@@ -8,7 +8,7 @@
   "files": ["bin", "src", "examples", "docs/report-v1.md", "docs/alternatives.md", "README.md", "LICENSE"],
   "scripts": { "test": "node --test", "demo": "node bin/property-delta.mjs examples/before.css examples/after.css" },
   "engines": { "node": ">=22" },
-  "keywords": ["css", "custom-properties", "design-tokens", "design-systems", "api-diff", "postcss", "cli", "continuous-integration"],
+  "keywords": ["css", "custom-properties", "design-tokens", "design-systems", "api-diff", "postcss", "developer-tools", "cli", "continuous-integration"],
   "repository": { "type": "git", "url": "https://github.com/itzjk/property-delta" },
   "bugs": { "url": "https://github.com/itzjk/property-delta/issues" },
   "license": "MIT",
